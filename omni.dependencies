@@ -2,7 +2,7 @@
   { 
     "remote": "github",
     "revision": "lineage-17.1",
-    "repository": "Demon000/android_kernel_xiaomi_sm8150",
+    "repository": "Demon000/kernel_xiaomi_sm8150",
     "target_path": "kernel/xiaomi/sm8150"
   },
   { "remote": "github",
