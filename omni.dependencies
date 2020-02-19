@@ -1,0 +1,13 @@
+[
+  { 
+    "remote": "github",
+    "revision": "lineage-17.1",
+    "repository": "Demon000/android_kernel_xiaomi_sm8150",
+    "target_path": "kernel/xiaomi/sm8150"
+  },
+  { "remote": "github",
+    "revision": "lineage-17.1",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+  }
+]
