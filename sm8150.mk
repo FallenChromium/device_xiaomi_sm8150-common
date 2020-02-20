@@ -26,6 +26,11 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+#Fingerprint
+PRODUCT_COPY_FILES += \
+    device/xiaomi/sm8150-common/permissions/android.hardware.fod.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fod.xml
+
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
